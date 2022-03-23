@@ -1,0 +1,24 @@
+.search-box {
+	position: relative;
+	width: 248px;
+	height: 32px;
+	border: 1px solid #343434;
+	box-sizing: border-box;
+}
+.icon.sprite-search {
+	position: absolute;
+    display: block;
+    right: 10px;
+    top: 50%;
+    width: 30px;
+    height: 17px;
+    margin-top: -8px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    background-position: 0 -40px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-image: url("images/sp_ico_1x.png");
+}
