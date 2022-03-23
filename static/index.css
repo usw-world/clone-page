@@ -1,0 +1,27 @@
+@font-face {
+    font-family: notosans;
+    src: url(fonts/notokr-regular.woff2);
+    font-weight: 400;
+}
+@font-face {
+    font-family: notosans;
+    src: url(fonts/notokr-light.woff2);
+    font-weight: 200;
+}
+@font-face {
+    font-family: notosans;
+    src: url(fonts/notokr-medium.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: notosans;
+    src: url(fonts/notokr-black.woff2);
+    font-weight: 900;
+}
+
+/* CSS for Slider >> */
+.us-slider .chevrons>.icon-chevron-left,
+.us-slider .chevrons>.icon-chevron-right {
+    font-size: 50px;
+}
+/* << CSS for Slider */

@@ -1,4 +1,5 @@
 function slideBanner (sliderElement, configs) {
+    sliderElement.classList.add("us-slider");
     const CHILD_CLASSNAME = configs.childClass || "slide-banner-item";
     const LIST_CLASSNAME = configs.listClass || "slide-banner-items";
 
@@ -23,6 +24,19 @@ function slideBanner (sliderElement, configs) {
         li.classList.add(CHILD_CLASSNAME);
         slideList.replaceChild(li, child);
     })
+
+    let mommyChevron = document.createElement("div");
+    mommyChevron.className = "chevrons";
+
+    let chevronLeft = document.createElement("span");
+    let chevronRight = document.createElement("span");
+    chevronLeft.classList.add("icon-chevron-left")
+    chevronRight.classList.add("icon-chevron-right")
+
+    mommyChevron.appendChild(chevronLeft);
+    mommyChevron.appendChild(chevronRight);
+
+    sliderElement.appendChild(mommyChevron);
 }
 
 slideBanner(document.querySelector("#slide-banner"), {
